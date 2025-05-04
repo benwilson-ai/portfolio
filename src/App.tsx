@@ -16,7 +16,6 @@ function App() {
       <Skills />
       <Hackathons />
       <Projects />
-      <Terminal />
       <Contact />
       <Footer />
     </>

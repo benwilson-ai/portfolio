@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@chakra-ui/react";
 import { MdOutlineEmail } from "react-icons/md";
-import { AiFillGithub, AiFillTwitterCircle, AiOutlineArrowRight } from "react-icons/ai";
+import { AiFillGithub, AiOutlineArrowRight } from "react-icons/ai";
 import { BsTelegram } from "react-icons/bs";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaDiscord } from "react-icons/fa";
@@ -20,39 +20,27 @@ export type Contact = {
 export const contacts: Contact[] = [
   {
     name: "EMAIL:",
-    info: "tijan@tijan.dev",
+    info: "benjaminwilson0809@gmail.com",
     icon: <MdOutlineEmail className="contact-icon" />,
-    url: "mailto:tijan@tijan.dev",
-  },
-  {
-    name: "TWITTER:",
-    info: "@0xTijan",
-    icon: <AiFillTwitterCircle className="contact-icon" />,
-    url: "https://twitter.com/0xTijan",
+    url: "mailto:benjaminwilson0809@gmail.com",
   },
   {
     name: "TELEGRAM:",
-    info: "@TijanWeb3",
+    info: "@Benjamin WilsonWeb3",
     icon: <BsTelegram className="contact-icon" />,
-    url: "https://t.me/TijanWeb3",
+    url: "https://t.me/Benjamin WilsonWeb3",
   },
   {
     name: "DISCORD:",
-    info: "Tijan#6804",
+    info: "Benjamin Wilson#6804",
     icon: <FaDiscord className="contact-icon" />,
     url: "https://discord.com/users/775249998379614238",
   },
   {
     name: "GitHub:",
-    info: "@0xTijan",
+    info: "@0xBenjamin Wilson",
     icon: <AiFillGithub className="contact-icon" />,
-    url: "https://github.com/0xTijan",
-  },
-  {
-    name: "LOCATION & ZONE:",
-    info: "Slovenia, UTC+1",
-    icon: <IoLocationOutline className="contact-icon" />,
-    url: "https://www.timeanddate.com/time/zone/slovenia",
+    url: "https://github.com/benwilson-blockchain",
   },
 ];
 
@@ -84,7 +72,7 @@ const Contact = () => {
       </div>
 
       <div className="button-container">
-        <a href="mailto:tijan@tijan.dev">
+        <a href="mailto:Benjamin Wilson@Benjamin Wilson.dev">
           <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid' className="contact-btn">
             {text[language].contactButton}
           </Button>

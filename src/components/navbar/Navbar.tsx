@@ -4,7 +4,7 @@ import "./Navbar.css";
 import { Heading, Text } from "@chakra-ui/react";
 import English from "../../images/english.png";
 import Slovenian from "../../images/slovenscina.svg";
-import { AiFillGithub, AiFillTwitterCircle, AiOutlineMail } from "react-icons/ai";
+import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { BsTelegram } from "react-icons/bs";
 import { useLanguage } from "../../contexts/LanguageContext";
 
@@ -33,7 +33,7 @@ const Navbar = () => {
       <div>
         <div className="navbarText">
           <Heading as="h2">
-            Tijan
+            Benjamin Wilson
           </Heading>
           <Text fontSize="2xl" className="name">
             BLOCKCHAIN & WEB
@@ -42,16 +42,14 @@ const Navbar = () => {
       </div>
       <div className="navbarRight">
         <div className="icons">
-          <a href="https://github.com/0xTijan" target="_blank" rel="noreferrer">
+          <a href="https://github.com/0xBenjamin Wilson" target="_blank" rel="noreferrer">
             <AiFillGithub className="icon" />
           </a>
-          <a href="https://twitter.com/0xTijan" target="_blank" rel="noreferrer">
-            <AiFillTwitterCircle className="icon" />
-          </a>
-          <a href="https://t.me/TijanWeb3" target="_blank" rel="noreferrer">
+
+          <a href="https://t.me/Benjamin WilsonWeb3" target="_blank" rel="noreferrer">
             <BsTelegram className="icon" />
           </a>
-          <a href="mailto:tijan@tijan.dev" target="_blank" rel="noreferrer">
+          <a href="mailto:Benjamin Wilson@Benjamin Wilson.dev" target="_blank" rel="noreferrer">
             <AiOutlineMail className="icon" />
           </a>
         </div>

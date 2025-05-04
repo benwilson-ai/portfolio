@@ -1,6 +1,6 @@
 import React from "react";
 import { Heading, Text, Button } from "@chakra-ui/react";
-import { AiFillGithub, AiFillTwitterCircle, AiOutlineArrowRight, AiOutlineMail } from "react-icons/ai";
+import { AiFillGithub, AiOutlineArrowRight, AiOutlineMail } from "react-icons/ai";
 import { BsTelegram, BsChevronDown } from "react-icons/bs";
 import "./About.css";
 import { useLanguage } from "../../contexts/LanguageContext";
@@ -32,8 +32,7 @@ const About = () => {
       return(
         <div className="alert">
           <Heading as="h3" size={getAlertSize()}>
-            💻{"   "}<a href="mailto:tijan@tijan.dev" className="contact-link">Hire Me!</a>
-            <span className="follow-me-link">🐦{"   "}</span><a href="https://twitter.com/0xTijan" className="contact-link">Follow Me!</a>
+            💻{"   "}<a href="mailto:Benjamin Wilson@Benjamin Wilson.dev" className="contact-link">Hire Me!</a>
           </Heading>
           <CloseButton size='lg' className="close-btn" onClick={() => hide()} />
         </div>
@@ -53,7 +52,7 @@ const About = () => {
                 {text[language].aboutHi}
               </Heading>*/}
               <Heading as='h1' fontSize={getFontSize()} size='4xl'>
-                <span className="name">👋  Tijan</span>
+                <span className="name">👋  Benjamin Wilson</span>
               </Heading>
             </div>
             <div className="about-text-desc">
@@ -61,21 +60,18 @@ const About = () => {
             </div>
 
             <div className="icons">
-              <a href="https://github.com/0xTijan" target="_blank" rel="noreferrer">
+              <a href="https://github.com/0xBenjamin Wilson" target="_blank" rel="noreferrer">
                 <AiFillGithub className="icon" />
               </a>
-              <a href="https://twitter.com/0xTijan" target="_blank" rel="noreferrer">
-                <AiFillTwitterCircle className="icon" />
-              </a>
-              <a href="https://t.me/TijanWeb3" target="_blank" rel="noreferrer">
+              <a href="https://t.me/Benjamin WilsonWeb3" target="_blank" rel="noreferrer">
                 <BsTelegram className="icon" />
               </a>
-              <a href="mailto:tijan@tijan.dev" target="_blank" rel="noreferrer">
+              <a href="mailto:Benjamin Wilson@Benjamin Wilson.dev" target="_blank" rel="noreferrer">
                 <AiOutlineMail className="icon" />
               </a>
             </div>
 
-            <a href="mailto:tijan@tijan.dev">
+            <a href="mailto:Benjamin Wilson@Benjamin Wilson.dev">
               <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
                 {text[language].contactButton}
               </Button>
