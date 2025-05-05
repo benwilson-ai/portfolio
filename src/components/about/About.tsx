@@ -1,3 +1,4 @@
+import React from 'react';
 import { Heading, Text, Button } from "@chakra-ui/react";
 import { AiFillGithub, AiOutlineArrowRight, AiOutlineMail } from "react-icons/ai";
 import { BsTelegram, BsChevronDown } from "react-icons/bs";
